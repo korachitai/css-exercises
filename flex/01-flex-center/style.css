@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -12,4 +15,29 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+
 }
+
+/* MY 1ST SOLUTION - not the best
+.container{
+  position: relative;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -40px;
+}
+*/
+
+
+/* MY 2ND SOLUTION
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*/
