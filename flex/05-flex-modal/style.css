@@ -22,6 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   padding: 10px;
+  gap: 10px;
 }
 
 .icon {
@@ -55,17 +56,16 @@ body {
 }
 
 .header{
+  display: flex;
   font-weight: bold;
   margin-bottom: 5px;
-  font-size: larger;
+  font-size: 24px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .text{
-  font-size: 14px;
-}
-
-.buttons{
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -86,7 +86,4 @@ button.cancel {
   color: royalblue;
 }
 
-.alert{
-  display: flex;
-  flex-direction: column;
-}
+
