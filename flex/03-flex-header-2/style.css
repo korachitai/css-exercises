@@ -13,10 +13,8 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  padding: 16px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -36,12 +34,14 @@ body {
 
 .left{
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 16px;
 }
 
 .right{
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 16px;
 }
 
 button {
@@ -65,6 +65,7 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-  gap: 8px;
+  margin: 0;
+  gap: 16px;
   
 }
